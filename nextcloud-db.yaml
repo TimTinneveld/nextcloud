@@ -30,7 +30,7 @@ spec:
       volumes:
       - name: db-storage
         persistentVolumeClaim:
-          claimName: nextcloud-db-storage-claim
+          claimName: nextcloud-shared-storage-claim
 ---
 apiVersion: v1
 kind: Service
